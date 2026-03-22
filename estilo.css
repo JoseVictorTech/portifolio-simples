@@ -156,3 +156,7 @@ section{
         width: 100%;
     }
 }
+#foto{
+    width: 50%;
+    border-radius: 100px;
+}
