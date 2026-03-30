@@ -4,6 +4,6 @@ function sitevitrine() {
 function list() {
     window.open(' https://josevictortech.github.io/todo-list-javascript/', '_blank')
 }
-function idade(){
-    window.open(' https://josevictortech.github.io/age-checker-javascript/' ,'_blank')
+function clima_ai(){
+    window.open(' https://josevictortech.github.io/app-clima/' ,'_blank')
 }

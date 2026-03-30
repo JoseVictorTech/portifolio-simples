@@ -39,13 +39,14 @@ section{
    justify-content: center;
    align-items: center;
    text-align: center;
-   padding: 0 20px;
+    padding-top: 120px;
 }
 #apresentacao h1{
     font-size: 4rem;
     margin: 0;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color:#222222;
+    margin-top: 10px;
 
 }
 #apresentacao p {
@@ -159,4 +160,61 @@ section{
 #foto{
     width: 50%;
     border-radius: 100px;
+}
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10%;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  color: #2563eb;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 600px;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.hero-buttons a {
+  text-decoration: none;
+  padding: 12px 24px;
+  background: #2563eb;
+  color: white;
+  border-radius: 20px;
+  margin-right: 10px;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.hero-buttons a:hover {
+  transform: translateY(-3px);
+  
+}
+.btn-github {
+    display: inline-block;
+    padding: 14px 28px;
+    background: linear-gradient(135deg, #00bfff, #0077ff);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0, 191, 255, 0.3);
+}
+
+.btn-github:hover {
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 191, 255, 0.5);
 }
